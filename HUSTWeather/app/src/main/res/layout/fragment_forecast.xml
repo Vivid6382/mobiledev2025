@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".ForecastFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-127dp"
+        android:padding="5dp"
+        android:layout_margin="15dp"
+        android:background="#dfdfff">
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Mon" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_day_cloudy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Partly Cloudy\n 24 C - 31 C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Tue" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_rain_mix" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Showers\n 24C - 30C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Wed" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_rain_mix" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rain\n 22C- 23C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Thu" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_day_thunderstorm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Scattered Showers\n 22C - 27C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Fri" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_day_cloudy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mostly Cloudy\n 22C - 30C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Sat" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_day_cloudy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Partly Cloudy\n 24C - 31C" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#dfdfff">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Sun" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/wi_day_thunderstorm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Thunderstorms\n 23C - 27C" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>
